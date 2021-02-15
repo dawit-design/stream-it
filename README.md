@@ -8,10 +8,10 @@ stream-it is an Airtable and react app to suggest favorite movies and shows on d
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+[Desktop Wirefram](https://i.imgur.com/hsY6tQX.png) 
 
 ## Component Hierarchy
-[Desktop Wirefram](https://i.imgur.com/hsY6tQX.png) 
+[Component Heirarchy](https://i.imgur.com/5ddeExB.png)
 
 ## API and Data Sample
 
