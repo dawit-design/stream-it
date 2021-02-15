@@ -83,8 +83,6 @@ data sample from Airtable API
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example.
-
 |  Day | Deliverable | Status
 |---|---| ---|
 |February 15| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
