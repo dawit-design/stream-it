@@ -87,32 +87,45 @@ This schedule will be used to keep track of your progress throughout the week an
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
-|July 16| MVP | Incomplete
-|July 17| Presentations | Incomplete
+|February 15| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|February 16| Project Approval | Incomplete
+|February 17| Finished components and clickable events | Incomplete
+|February 18| Work on style and layout | Incomplete
+|February 19| MVP  | Incomplete
+|February 20| Post-MVPs | Incomplete
+|February 23| Presentations | Incomplete
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all parts of your app.  Your estimates can then be used to evalute possibilities based on time needed and the actual time you have before the app must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add an additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
-
-## SWOT Analysis
+| Creating data base in Airtable| H | 1.5hrs|  |  |
+| Nav Component | H | 2hrs|  |  |
+| Home Component | H | 3hrs|  |  |
+| Movies Component | H | 3hrs|  |  |
+| Movie-Info Component | H | 3hrs|  |  |
+| Figuring out linking and route Component | H | 3hrs|  |  |
+| Basic CSS for each component | H | 3hrs|  |  |
+| Meida Query for diferrent screen size | H | 3hrs|  |  |
+| Post MVP Book Component | H | 3hrs|  |  |
+| Post MVP local Storage | H | 3hrs|  |  |
+| Post MVP Component | H | 3hrs|  |  |
+| Post MVP styling  | H | 3hrs|  |  |
+| Post MVP animation and Carousel | H | 3hrs|  |  |
+| Total | H | 36.5hrs |  |  |
 
 ### Strengths:
 
+I believe getting data on the page won't be hard since I have had that practice so many times.
+
 ### Weaknesses:
+
+My weakness will be I am not sure how to render data based on their streaming service which is my intial idea, but I will still go for it and figure something out, if not possible I will go a different way and still render my data.
 
 ### Opportunities:
 
+If I finish rendering data as I want it on the page and I am conifident that will give me the oppoturnity to focus on the styling and my post MVP so I can have a good user interface.
+
 ### Threats:
+
+My other threat is figuring out how to use react-bootsrap and styling the page as I want it to be.
