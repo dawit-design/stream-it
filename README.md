@@ -102,6 +102,7 @@ data sample from Airtable API
 | Home Component | H | 3hrs|  |  |
 | Movies Component | H | 3hrs|  |  |
 | Movie-Info Component | H | 3hrs|  |  |
+| Form Component | H | 3hrs|  |  |
 | Figuring out linking and route Component | H | 3hrs|  |  |
 | Basic CSS for each component | H | 3hrs|  |  |
 | Meida Query for diferrent screen size | H | 3hrs|  |  |
