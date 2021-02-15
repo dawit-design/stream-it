@@ -111,7 +111,7 @@ data sample from Airtable API
 | Post MVP Component | H | 3hrs|  |  |
 | Post MVP styling  | H | 3hrs|  |  |
 | Post MVP animation and Carousel | H | 3hrs|  |  |
-| Total | H | 36.5hrs |  |  |
+| Total | H | 39.5hrs |  |  |
 
 ### Strengths:
 
