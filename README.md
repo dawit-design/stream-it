@@ -8,10 +8,13 @@ stream-it is an Airtable and react app to suggest favorite movies and shows on d
 
 ## Wireframes
 
-[Desktop Wirefram](https://i.imgur.com/hsY6tQX.png) 
+[mobile Wireframe](https://i.imgur.com/oQEjqzh.png)
+
+[Desktop Wireframe](https://i.imgur.com/gHy0aF8.png) 
 
 ## Component Hierarchy
-[Component Heirarchy](https://i.imgur.com/5ddeExB.png)
+
+[Component Heirarchy](https://i.imgur.com/JJVkw2I.png)
 
 ## API and Data Sample
 
@@ -23,11 +26,9 @@ data sample from Airtable API
         {
             "id": "recfcILO2Gl6Jduor",
             "fields": {
+                "streaming_on": "HBO-MAX",
                 "genre": "Drama/Historical Drama",
                 "title": "Judas and the Black Messiah",
-                "hbo_max": [
-                    "recbi3YQWzrZjcPgU"
-                ],
                 "description": "Offered a plea deal by the FBI, William O'Neal infiltrates the Illinois chapter of the Black Panther Party to gather intelligence on Chairman Fred Ham...",
                 "release_year": "2021",
                 "rating": "9.6"
@@ -37,25 +38,21 @@ data sample from Airtable API
         {
             "id": "recO1jJwcEVSpOeiq",
             "fields": {
-                "genre": "Documentary",
-                "title": "Growing Up Milwaukee",
-                "hbo_max": [
-                    "recbi3YQWzrZjcPgU"
-                ],
-                "description": "Three African American teens face daily challenges while growing up in Milwaukee.",
+                "streaming_on": "HBO-MAX",
+                "genre": "TV Drama",
+                "title": "Lovecraft Country ",
+                "description": "Anchored by Jurnee Smollett-Bell and Jonathan Majors' heroic performances, Misha Green's Lovecraft Country is a thrilling take on Lovecraftian lore th...",
                 "release_year": "2020",
-                "rating": "N/A"
+                "rating": "8.8"
             },
             "createdTime": "2021-02-15T18:45:11.000Z"
         },
         {
             "id": "recy7V9x2WybW1Na5",
             "fields": {
+                "streaming_on": "HBO-MAX",
                 "genre": "Documentary",
                 "title": "Black Art: In the Absence of Light",
-                "hbo_max": [
-                    "recbi3YQWzrZjcPgU"
-                ],
                 "description": "Inspired by the late David Driskell's landmark 1976 exhibition, \"Two Centuries of Black American Art,\" the documentary Black Art: In the Absence of Li...",
                 "release_year": "2021",
                 "rating": "10"
