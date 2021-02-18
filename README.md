@@ -8,9 +8,9 @@ stream-it is an Airtable and react app to suggest favorite movies and shows on d
 
 ## Wireframes
 
-[mobile Wireframe](https://i.imgur.com/oQEjqzh.png)
+[mobile Wireframe](https://i.imgur.com/2geivQb.png)
 
-[Desktop Wireframe](https://i.imgur.com/gHy0aF8.png) 
+[Desktop Wireframe](https://i.imgur.com/NKDec6R.png) 
 
 ## Component Hierarchy
 
@@ -82,9 +82,9 @@ data sample from Airtable API
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|February 15| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|February 16| Project Approval | Incomplete
-|February 17| Finished components and clickable events | Incomplete
+|February 15| Prompt / Wireframes / Priority Matrix / Timeframes | complete
+|February 16| Project Approval | complete
+|February 17| Finished components and clickable events | complete
 |February 18| Work on style and layout | Incomplete
 |February 19| MVP  | Incomplete
 |February 20| Post-MVPs | Incomplete
@@ -94,21 +94,22 @@ data sample from Airtable API
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Creating data base in Airtable| H | 1.5hrs|  |  |
-| Nav Component | H | 2hrs|  |  |
-| Home Component | H | 3hrs|  |  |
-| Movies Component | H | 3hrs|  |  |
-| Movie-Info Component | H | 3hrs|  |  |
-| Form Component | H | 3hrs|  |  |
-| Figuring out linking and route Component | H | 3hrs|  |  |
-| Basic CSS for each component | H | 3hrs|  |  |
+| Creating data base in Airtable| H | 1.5hrs| 2hrs |  |
+| Nav Component | H | 2hrs|  1hrs|  |
+| Home Component | H | 3hrs| 2hrs |  |
+| Movies Component | H | 3hrs|  2hrs|  |
+| Movie-Info Component | H | 3hrs| 2hrs |  |
+| Form Component | H | 3hrs|  2hrs|  |
+| Search function | H | 3hrs|  4hrs|  |
+| Figuring out linking and route Component | H | 3hrs| 2hrs |  |
+| Basic CSS for each component | H | 3hrs| 3hrs |  |
 | Meida Query for diferrent screen size | H | 3hrs|  |  |
 | Post MVP Book Component | H | 3hrs|  |  |
 | Post MVP local Storage | H | 3hrs|  |  |
 | Post MVP Component | H | 3hrs|  |  |
 | Post MVP styling  | H | 3hrs|  |  |
 | Post MVP animation and Carousel | H | 3hrs|  |  |
-| Total | H | 39.5hrs |  |  |
+| Total | H | 39.5hrs | 20hrs |  |
 
 ### Strengths:
 
