@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
+import "./Nav.css";
 function Nav() {
   return (
     <nav className="nav-bar">
-      <Link className="nav" to="/">Home</Link>
-      <Link className="nav" to="/movies/id">MovieInfo</Link>
-      <Link className="nav" to="/form/id">Add movies</Link>
-      <Link className="nav" to="/about/id">About </Link>
+      <div className="nav">
+      <Link className="nav-links" to="/">Home</Link>
+      <Link className="nav-links" to="/movies/id">MovieInfo</Link>
+      <Link className="nav-links" to="/form/id">Add movies</Link>
+      <Link className="nav-links" to="/about/id">About </Link>
+      </div>
+      
       {/* <Link className="nav" to="/search">Search Here</Link> */}
     </nav>
   );

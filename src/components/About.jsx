@@ -1,6 +1,7 @@
 function About() {
   return (
-    <div className="about-class">
+    <div className="about-container">
+       <div className="about-class">
       <h2>Welcome To stream-it</h2>
       <p>stream-it is an Airtable and
       react app to suggest favorite
@@ -13,6 +14,8 @@ function About() {
       the movie or the show how based on
         how they feel about it.</p>
     </div>
+    </div>
+   
   )
 }
 export default About;
