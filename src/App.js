@@ -1,80 +1,73 @@
-import { Link, Route } from 'react-router-dom';
-import { useEffect, useState } from 'react';
-import { baseURL, config } from './services';
-import axios from 'axios';
-import Movie from './components/Movie';
-import Nav from './components/Nav';
-import Form from './components/Form'
-import MovieInfo from './components/MovieInfo'
-// import Search from './components/Search'
-import './App.css';
+import { Link, Route } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { baseURL, config } from "./services";
+import axios from "axios";
+import Movie from "./components/Movie";
+import Nav from "./components/Nav";
+import Form from "./components/Form";
+import MovieInfo from "./components/MovieInfo";
+import About from './components/About'
+import "./App.css";
 
 function App() {
   const [movies, setMovies] = useState([]);
   const [toggleFetch, setToggleFetch] = useState(false);
-  const [movieImage, setMovieImage] = useState([]);
-
-  const fetchMovie = () => {
-    // const movieApi = `${baseURL}${config}`
-    const moviePic = `https://api.themoviedb.org/3/discover/movie?api_key=15d2ea6d0dc1d476efbca3eba2b9bbfb`
-    
-    const getMovieFrom = axios.get(baseURL, config)
-    const getMovieImage = axios.get(moviePic)
-    axios.all([getMovieFrom, getMovieImage]).then(
-      axios.spread((...allData) => {
-        const allDataMovie = allData[0].data.records
-        const getMovieImageOf = allData[1].data.results
-
-
-        console.log(allDataMovie)
-        console.log(getMovieImageOf)
-        setMovies(allDataMovie);
-        setMovieImage(getMovieImage);
-      })
-    )
-  }
+  const [search, setSearch] = useState("");
+  
   useEffect(() => {
-    fetchMovie()
-  },[toggleFetch])
+    const getMovies = async () => {
+      const resp = await axios.get(baseURL, config);
 
-  // useEffect(() => {
-  //   const getMovies = async () => {
-  //     const resp = await axios.get(baseURL, config);
+      console.log(resp.data.records);
 
-  //     console.log(resp.data.records)
+      setMovies(resp.data.records);
+    };
+    getMovies();
+  }, [toggleFetch]);
 
-  //     setMovies(resp.data.records);
-  //   }
-  //   getMovies();
-  // }, [toggleFetch])
+  const filteredMovies = movies.filter(movie => {
+    // console.log('shoot me now')
+    return movie.fields.streaming_on.toLowerCase().includes(search)
+  //  return movie.fields.streaming.toLowerCase().includes(search.toLowerCase())
+  })
+
 
   return (
     <div className="App">
       <Nav />
-
-      <Route exact path='/'>
-       {/* <Search /> */}
+      <Route exact path="/">
+        
       </Route>
       <Route exact path="/">
         <h2>stream-it movie list</h2>
+        <div className="search-bar">
+        <input 
+          type="text"
+          placeholder="streaming-service"
+          onChange={e => setSearch(e.target.value)}
+        />
+        </div>
         <div className="movie-list">
-          {movies.map((movie) => (
+          {filteredMovies.map((movie) => (
             <Movie
               key={movie.id}
+    
               movie={movie}
-              setToggleFetch={setToggleFetch} movieImage={movieImage}/>
+              setToggleFetch={setToggleFetch}
+            />
           ))}
         </div>
       </Route>
       <Route exact path="/form/id">
-        <Form />
+        <Form movies={movies} setToggleFetch={setToggleFetch}/>
       </Route>
       <Route exact path="/movies/:id">
         <h2>Movie-Info</h2>
-        <MovieInfo movies={movies}/>
+        <MovieInfo movies={movies} />
       </Route>
-      
-     
+      <Route exact path="/about/id">
+        <About/>
+      </Route>
     </div>
   );
 }

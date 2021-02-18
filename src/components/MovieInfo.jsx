@@ -27,9 +27,9 @@ function MovieInfo(props) {
   
 
   return (
-    <div>
+    <div className="movie-info">
       <h2>Title: {title}</h2>
-      <h4>Streaming-on:{streaming_on}</h4>
+      <h4>Streaming-on: {streaming_on}</h4>
       <h5>Genre: {genre}</h5>
       <h5>Year: {release_year}</h5>
       <h5>Rating: {rating}</h5>

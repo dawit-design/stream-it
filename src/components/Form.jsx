@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { baseURL, config } from '../services';
+import "./Form.css"
 import axios from "axios";
 
 function Form(props) {
@@ -49,9 +50,9 @@ function Form(props) {
       <input type="text" value={rating} onChange={(e) => setRating(e.target.value) }/>
 
       <label htmlFor="tetx">Description:</label>
-      <input type="text" value={description} onChange={(e) => setDescription(e.target.value)} />
+      <textarea type="text" value={description} onChange={(e) => setDescription(e.target.value)} />
       
-      <button type="submit">stream-it</button>
+      <button className="button-class" type="submit">stream-it</button>
     </form>
   );
 }

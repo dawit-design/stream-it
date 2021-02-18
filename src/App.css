@@ -1,23 +1,121 @@
+html {
+  scroll-behavior: smooth;
+}
 .App {
   text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  width: 100%;
 }
 
 .nav-bar{
+  position: absolute;
   margin: 10px auto;
+  left: 35%;
+  width: 100%;
+  height: 115px;
+  transform: translate(-50%, -50%);
+ 
 }
+.nav {
+  color: #8939f8;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 10px auto;
+  padding: 0px 25px;
+  /* background: rgba(255, 255, 255, .055); */
+  position: relative;
+  /* transition: all .4s; */
+}
+.nav:hover{
+  color: #37b9f1;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0,24);
+}
+.nav::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  /* background: #845ec2; */
+  z-index: -1;
+  /* transition: all .4s; */
+}
+.nav:hover::before{
+  height: 50%;
+}
+
 .movie-list{
   color: #8939f8;
   background-color: #e1dfe9;
-  margin: 30px auto;
-  width: 450px;
+  margin: 75px auto;
+  width: 100%;
   
 }
 .movies-list{
   background: #37b9f1;
+  width: 100%;
+  margin: 50px auto
 }
-p {
-  color: #fff;
+.movie-info{
+  display: flex;
+  flex-direction: column;
+  margin: 5px auto;
+  width: 650px;
+  color: #8939f8;
+  /* background:#37b9f1; */
+  background: #f2f5f5;
 }
 button{
-  background: blue-gray;
+  width: 135px;
+  margin: 10px;
+  border-radius: 25px;
+  font-size: 25px;
+  border: 1px solid #8939f8;
+}
+button:hover{
+  color: white;
+  background: #8939f8;
+  
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+  color: teal;
+  width: 650px;
+  background: #f2f5f5;
+  margin: 50px auto;
+  border-radius: 25px;
+  padding: 40px;
+  border: 1px solid #8939f8;
+  font-family: 'Sacramento', cursive;
+  font-weight: 300px;
+  /* font-family: 'Indie Flower', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Reggae One', cursive;
+font-family: 'Sacramento', cursive; */
+/* font-family: 'Roboto Condensed', sans-serif; */
+}
+.button-class{
+  width: 135px;
+  margin: 10px auto;
+  border-radius: 25px;
+  font-size: 25px;
+  border: 1px solid #8939f8;
+  font-family: 'Sacramento', cursive;
+}
+.button-class:hover{
+  color: #37b9f1;
+  background: #8939f8;
+  opacity: .6;
+  
+}
+.search-bar{
+ border-radius: 25%;
+}
+.about-class {
+
+  margin: 50px;
+  padding: 50px;
 }
