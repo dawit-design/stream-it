@@ -32,6 +32,11 @@ html {
   margin: 20px auto;
   color: rgba(73, 63, 252, .6);
 }
+.img-class{
+  height: 200px;
+  padding-top: 3vh;
+  /* padding-bottom: 5vh; */
+}
 
 button{
   width: 135px;

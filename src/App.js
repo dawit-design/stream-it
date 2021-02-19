@@ -21,7 +21,7 @@ function App() {
   useEffect(() => {
     const getMovies = async () => {
       const resp = await axios.get(baseURL, config);
-
+      console.log(resp.data.records);
       setMovies(resp.data.records);
       if (resp.data.records) {
         setFilterMovies(resp.data.records.filter((movie) => {
@@ -34,7 +34,7 @@ function App() {
     };
     getMovies();
     
-  },[movies], [search, toggleFetch]);
+  }, [search, toggleFetch]);
 
 
 
@@ -48,7 +48,7 @@ function App() {
             placeholder="streaming-service"
             onChange={(e) => setSearch(e.target.value)}
           />
-        <div className="movies-list">
+        <div className="movies-list" >
           {filterMovies.map((movie) => (
             <Movie
               key={movie.id}

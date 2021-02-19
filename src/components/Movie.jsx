@@ -11,10 +11,12 @@ function Movie(props) {
     props.setToggleFetch((curr) => !curr);
   };
 
-  const { title, streaming_on } = props.movie.fields;
+  const { title, streaming_on, image } = props.movie.fields;
 
   return (
     <div className="movie-list" key={props.movie.id}>
+      <img
+       className="img-class" src={image} alt="" />
       <h3>Title: {title}</h3>
       <h5>Streaming-on: {streaming_on}</h5>
       <Link to={`/movies/${props.movie.id}`}>

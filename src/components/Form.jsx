@@ -7,6 +7,7 @@ import axios from "axios";
 
 function Form(props) {
   const [title, setTitle] = useState("");
+  const [image, setImage] = useState("");
   const [streaming_on, setStreaming_On] = useState("");
   const [release_year, setRelease_Year] = useState("");
   const [genre, setGenre] = useState("");
@@ -19,6 +20,7 @@ function Form(props) {
     const moreMovies = async () => {
       const fields = {
         title,
+        image,
         streaming_on,
         release_year,
         genre,
@@ -41,6 +43,13 @@ function Form(props) {
         type="text"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
+        />
+        <label htmlFor="text">Image url:</label>
+      <input
+        className="input-field"
+        type="text"
+        value={image}
+        onChange={(e) => setImage(e.target.value)}
       />
 
       <label htmlFor="text">Streaming on:</label>
