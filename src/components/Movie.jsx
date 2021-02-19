@@ -17,8 +17,8 @@ function Movie(props) {
     <div className="movie-list" key={props.movie.id}>
       <img
         className="img-class" src={image ? image : "https://i.imgur.com/fs3wLRO.jpg"} alt="" />
-      <h4>{title }</h4>
-      <h5>{streaming_on}</h5>
+      <h4 className="h4-class">{title }</h4>
+      <h5 className="h5-class">{streaming_on}</h5>
       <Link to={`/movies/${props.movie.id}`}>
         <button >MovieInfo</button>
       </Link>

@@ -4,7 +4,7 @@
   color: hsl(265, 93%, 60%);
   margin: 15px ;
   width: 350px;
-  height: 550px;
+  height: 490px;
   background: linear-gradient(
     90deg,
     rgba(110, 94, 254, .3) 0%,
@@ -12,13 +12,16 @@
   );
   border: 1px solid hsl(265, 93%, 60%);
   border-radius: 18px;
+  box-shadow: 5px 8px rgba(110, 94, 254, .3);
+}
+.movie-list:hover {
+  box-shadow: 5px 8px #37b9f1;
 }
 .movies-list{
   background-color: lightblue;
 }
 button{
   width: 135px;
-  margin: 10px;
   border-radius: 18px;
   font-size: 15px;
   border: 1px solid #8939f8;
@@ -33,11 +36,17 @@ button:hover{
   
 }
 .img-class{
-  height: 200px;
+  height: 170px;
   padding: 0.5vh;
   border: 1px solid lightblue;
   border-radius: 10px;
   box-shadow: 5px 8px #37b9f1;
+  
+  
+}
+.h4-class .h5-class{
+  margin: 2px auto;
+ 
 }
 .stream-it{
   font-size: 65px;
