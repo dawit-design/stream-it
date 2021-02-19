@@ -17,7 +17,6 @@ html {
   align-items: center;
   font-family: inherit;
   font-size: 25px;
-  /* background-color: #37b9f1; */
   text-decoration: none;
 }
 .movies-list{
@@ -35,7 +34,6 @@ html {
 .img-class{
   height: 200px;
   padding-top: 3vh;
-  /* padding-bottom: 5vh; */
 }
 
 button{

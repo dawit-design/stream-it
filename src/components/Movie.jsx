@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import { baseURL, config } from "../services";
 
-
 function Movie(props) {
   const deleteMovie = async () => {
     const url = `${baseURL}/${props.movie.id}`;
