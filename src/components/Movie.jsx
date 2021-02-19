@@ -16,13 +16,14 @@ function Movie(props) {
   return (
     <div className="movie-list" key={props.movie.id}>
       <img
-       className="img-class" src={image} alt="" />
-      <h3>Title: {title}</h3>
+        className="img-class" src={image ? image : "https://i.imgur.com/fs3wLRO.jpg"} alt="" />
+      <h3>Title: {title }</h3>
       <h5>Streaming-on: {streaming_on}</h5>
       <Link to={`/movies/${props.movie.id}`}>
         <button >MovieInfo</button>
       </Link>
       {/* <button onClick={deleteMovie}>Delete!</button> */}
+
     </div>
   );
 }
