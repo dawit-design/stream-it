@@ -21,7 +21,7 @@ function App() {
   useEffect(() => {
     const getMovies = async () => {
       const resp = await axios.get(baseURL, config);
-      console.log(resp.data.records);
+      // console.log(resp.data.records);
       setMovies(resp.data.records);
       if (resp.data.records) {
         setFilterMovies(resp.data.records.filter((movie) => {

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { baseURL, config } from "../services";
+import { useHistory } from "react-router-dom";
 import React from "react";
 import "./Form.css";
 
@@ -13,6 +14,7 @@ function Form(props) {
   const [genre, setGenre] = useState("");
   const [rating, setRating] = useState("");
   const [description, setDescription] = useState("");
+  const histroy = useHistory();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -29,6 +31,7 @@ function Form(props) {
       };
       await axios.post(baseURL, { fields }, config);
       props.setToggleFetch((curr) => !curr);
+      histroy.push("/")
     };
     moreMovies();
   };
