@@ -17,7 +17,7 @@
   margin: 12px;
 }
 .movie-info h2, h4{
-  margin: 12px;
+  margin: auto 12px;
 }
 .image-class{
   height: 170px;
@@ -44,5 +44,21 @@
   cursor: pointer;
 }
 .info-button:hover{
+  background: rgba(73, 63, 252, .4);
+}
+.video-link{
+  margin: 5px auto;
+  /* height: 25px; */
+  border: 1px solid #8939f8;
+  border-radius: 14px;
+  background: #f2f5f5;
+  text-align: center;
+  padding: 5px;
+  color: #37b9f1;
+  font-size: 25px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.video-link:hover{
   background: rgba(73, 63, 252, .4);
 }
