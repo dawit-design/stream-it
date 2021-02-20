@@ -10,6 +10,10 @@
   border: 1px solid #8939f8;
   font-family: inherit;
 }
+.movie-cont h2 {
+  margin: 10px;
+  font-size: 40px;
+}
 .movie-cont {
   color: #37b9f1;
 }
@@ -17,7 +21,7 @@
   margin: 12px;
 }
 .movie-info h2, h4{
-  margin: auto 12px;
+  margin: 12px;
 }
 .image-class{
   height: 170px;

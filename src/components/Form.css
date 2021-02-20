@@ -1,12 +1,19 @@
 .form{
   margin: 10px;
   color: #37b9f1;
+  background-color: lightblue;
+  margin: 8px auto;
+}
+.form h2 {
+  margin: 10px;
+  font-size: 40px;
 }
 .form-container{
   display: flex;
   flex-direction: column;
   color: #37b9f1;
   background: #f2f5f5;
+ 
   border-radius: 25px;
   padding: 10px;
   border: 1px solid #37b9f1;

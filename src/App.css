@@ -22,7 +22,7 @@ html {
 }
 
 .about-container {
-  margin: 150px auto;
+  margin: 80px auto;
 }
 .about-class {
   display: flex;
@@ -34,22 +34,15 @@ html {
   padding: 50px;
   border: 1px solid #8939f8;
   font-family: inherit;
-  font-weight: 300px;
+  font-weight: bold;
+  /* font-family: 'Sacramento', cursive; */
+  font-family: 'Indie Flower', cursive;
+  font-size: 45px;
 }
-.like-butt {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #555;
-  text-align: center;
-  font-size: 11px;
-  font-family: 600;
-  line-height: 38px;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: none;
-  background-color: transparent;
-  border-radius: 6px;
-  box-sizing: border-box;
+.about-class h2 {
+  margin: 8px;
 }
+.about-class p {
+  margin: 6px;
+}
+

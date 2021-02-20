@@ -42,12 +42,12 @@ button:hover {
   box-shadow: 5px 8px #37b9f1;
 }
 
-.h4-class .h5-class {
+.h4-class {
   margin: 2px auto;
 }
 
 .stream-it {
-  margin-top: 2rem;
+  margin: 10px;
   text-align: center;
   font-size: 3rem;
   font-weight: bold;
