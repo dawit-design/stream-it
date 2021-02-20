@@ -44,7 +44,6 @@ function MovieInfo(props) {
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-        {/* <img className="image-class" src={image ? image : "https://i.imgur.com/fs3wLRO.jpg" } alt="image" /> */}
         <h4>Streaming-on: {streaming_on ? streaming_on : "DISNEY PLUS"}</h4>
         <h5>Genre: {genre ? genre : "SCI-FI"}</h5>
         <h5>Year: {release_year ? release_year : 2018}</h5>
