@@ -34,27 +34,21 @@ function MovieInfo(props) {
     <div className="movie-cont">
       <h2>Movie Info</h2>
       <div className="movie-info">
-        <h2>Title: {title ? title : "Black Panther"}</h2>
+        <h2>Title: {title}</h2>
         <iframe
           className="video-link"
           width="560"
           height="315"
-          src={video ? video : "https://www.youtube.com/embed/xjDjIWPwcPU"}
+          src={video}
           frameBorder="0"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-        <h4>Streaming-on: {streaming_on ? streaming_on : "DISNEY PLUS"}</h4>
-        <h5>Genre: {genre ? genre : "SCI-FI"}</h5>
-        <h5>Year: {release_year ? release_year : 2018}</h5>
-        <h5>Rating: {rating ? rating : 7.3}</h5>
-        <h5>
-          Description:{" "}
-          {description
-            ? description
-            : "Black Panther is a 2018 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 18th film in the Marvel Cinematic Universe (MCU)"}
-        </h5>
-        {/* <a className="video-link"href={video ? video : "https://www.youtube.com/watch?v=xjDjIWPwcPU"}>Trailer</a> */}
+        <h4>Streaming-on: {streaming_on}</h4>
+        <h5>Genre: {genre}</h5>
+        <h5>Year: {release_year}</h5>
+        <h5>Rating: {rating}</h5>
+        <h5>Description: {description}</h5>
         <button className="info-button" onClick={() => history.goBack()}>
           Back
         </button>

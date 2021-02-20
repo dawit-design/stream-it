@@ -32,6 +32,7 @@
 }
 .image-class{
   height: 200px;
+  width: 20px;
   padding-top: 3vh;
   margin: 5px auto;
 }
