@@ -1,26 +1,26 @@
 .movie-list {
   display: inline-block;
-  flex-direction: column; 
+  flex-direction: column;
   color: hsl(265, 93%, 60%);
-  margin: 15px ;
+  margin: 15px;
   width: 350px;
-  height: 490px;
+  height: 460px;
   background: linear-gradient(
     90deg,
-    rgba(110, 94, 254, .3) 0%,
-    rgba(73, 63, 252, .7) 100%
+    rgba(110, 94, 254, 0.3) 0%,
+    rgba(73, 63, 252, 0.7) 100%
   );
   border: 1px solid hsl(265, 93%, 60%);
   border-radius: 18px;
-  box-shadow: 5px 8px rgba(110, 94, 254, .3);
+  box-shadow: 5px 8px rgba(110, 94, 254, 0.3);
 }
 .movie-list:hover {
   box-shadow: 5px 8px #37b9f1;
 }
-.movies-list{
+.movies-list {
   background-color: lightblue;
 }
-button{
+button {
   width: 135px;
   border-radius: 18px;
   font-size: 15px;
@@ -30,24 +30,25 @@ button{
   color: #fff;
   background: #37b9f1;
 }
-button:hover{
+button:hover {
   color: #37b9f1;
   background: #6d76f7;
-  
 }
-.img-class{
+.img-class {
   height: 170px;
   padding: 0.5vh;
   border: 1px solid lightblue;
   border-radius: 10px;
   box-shadow: 5px 8px #37b9f1;
-  
-  
 }
-.h4-class .h5-class{
+
+.h4-class .h5-class {
   margin: 2px auto;
- 
 }
-.stream-it{
-  font-size: 65px;
+
+.stream-it {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
 }

@@ -7,7 +7,6 @@ import Nav from "./components/Nav";
 import Form from "./components/Form";
 import MovieInfo from "./components/MovieInfo";
 import About from "./components/About";
-
 import "./App.css";
 
 function App() {

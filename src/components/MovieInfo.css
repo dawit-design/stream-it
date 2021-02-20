@@ -4,24 +4,32 @@
   color: #37b9f1;
   /* width: 850px; */
   background: #f2f5f5;
-  margin: 20px auto;
+  margin: 10px auto;
   border-radius: 25px;
-  padding: 20px;
+  /* padding: 20px; */
   border: 1px solid #8939f8;
   font-family: inherit;
 }
 .movie-cont {
   color: #37b9f1;
 }
-.info-box{
-  margin: 25px;
-
+.movie-info h5{
+  margin: 12px;
+}
+.movie-info h2, h4{
+  margin: 12px;
+}
+.image-class{
+  height: 170px;
+  padding: 0.5vh;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  box-shadow: 5px 8px #37b9f1; 
 }
 .image-class{
   height: 200px;
   padding-top: 3vh;
   margin: 5px auto;
-
 }
 .info-button{
   margin: 20px auto;
