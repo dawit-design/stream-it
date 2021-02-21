@@ -17,9 +17,6 @@
 .movie-list:hover {
   box-shadow: 5px 8px #37b9f1;
 }
-.movies-list {
-  background-color: lightblue;
-}
 button {
   width: 135px;
   border-radius: 18px;
@@ -49,7 +46,40 @@ button:hover {
 .stream-it {
   margin: 10px;
   text-align: center;
-  font-size: 3rem;
+  font-size: 45px;
   font-weight: bold;
   color: #37b9f1;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+  .movie-list {
+    margin: 8px;
+    width: 105px;
+    height: 200px;
+
+  }
+  .img-class {
+    height : 40px;
+    border-radius: 5px;
+
+  }
+  button{
+    width: 50px;
+    border-radius: 9px;
+    font-size: 11px;
+    /* margin: 2px; */
+  }
+  .h4-class{
+    margin: 1px auto;
+    font-size: 12px;
+  }
+  .h5-class{
+    font-size: 12px;
+  }
+  .stream-it{
+    color: tomato;
+    margin: 5px auto;
+    font-size: 18px;
+    font-weight: 165px;
+  }
 }

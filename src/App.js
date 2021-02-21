@@ -7,6 +7,7 @@ import Nav from "./components/Nav";
 import Form from "./components/Form";
 import MovieInfo from "./components/MovieInfo";
 import About from "./components/About";
+import Footer from "./components/Footer.jsx";
 import "./App.css";
 
 function App() {
@@ -38,35 +39,37 @@ function App() {
 
   return (
     <div className="App">
-      <Nav />
-
-      <Route exact path="/">
-        <h2 className="stream-it">stream-it!</h2>
-        <input
-          className="search-class"
-          type="text"
-          placeholder="streaming-service"
-          onChange={(e) => setSearch(e.target.value)}
-        />
-        <div className="movies-list">
-          {filterMovies.map((movie) => (
-            <Movie
-              key={movie.id}
-              movie={movie}
-              setToggleFetch={setToggleFetch}
-            />
-          ))}
-        </div>
-      </Route>
-      <Route exact path="/form/id">
-        <Form movies={movies} setToggleFetch={setToggleFetch} />
-      </Route>
-      <Route exact path="/movies/:id">
-        <MovieInfo movies={movies} />
-      </Route>
-      <Route exact path="/about/id">
-        <About />
-      </Route>
+      <div className="content">
+        <Nav />
+        <Route exact path="/">
+          <h2 className="stream-it">stream-it!</h2>
+          <input
+            className="search-class"
+            type="text"
+            placeholder="streaming-service"
+            onChange={(e) => setSearch(e.target.value)}
+          />
+          <div className="movies-list">
+            {filterMovies.map((movie) => (
+              <Movie
+                key={movie.id}
+                movie={movie}
+                setToggleFetch={setToggleFetch}
+              />
+            ))}
+          </div>
+        </Route>
+        <Route exact path="/form/id">
+          <Form movies={movies} setToggleFetch={setToggleFetch} />
+        </Route>
+        <Route exact path="/movies/:id">
+          <MovieInfo movies={movies} />
+        </Route>
+        <Route exact path="/about/id">
+          <About />
+        </Route>
+      </div>
+      <Footer />
     </div>
   );
 }

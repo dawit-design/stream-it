@@ -87,8 +87,8 @@ data sample from Airtable API
 |February 15| Prompt / Wireframes / Priority Matrix / Timeframes | complete
 |February 16| Project Approval | complete
 |February 17| Finished components and clickable events | complete
-|February 18| Work on style and layout | Incomplete
-|February 19| MVP  | Incomplete
+|February 18| Work on style and layout | complete
+|February 19| MVP  | complete
 |February 20| Post-MVPs | Incomplete
 |February 23| Presentations | Incomplete
 
