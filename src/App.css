@@ -3,7 +3,6 @@ html {
 }
 .App {
   text-align: center;
-  /* font-family: "Indie Flower", cursive; */
   font-family: "Akaya Kanadaka", cursive;
   font-weight: normal;
   font-size: 30px;
@@ -78,7 +77,7 @@ html {
 /* media query for mobile */
 @media (min-width: 320px) and (max-width: 767px) {
   .App .search-class {
-    font-size: 20px;
+    font-size: 16px;
     width: 200px;
     height: 25px;
     border-radius: 6px;
@@ -114,7 +113,7 @@ html {
 /* media query for Ipad/tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
   .App .search-class {
-    font-size: 25px;
+    font-size: 20px;
     width: 250px;
     height: 40px;
   }
