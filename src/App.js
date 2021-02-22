@@ -28,7 +28,7 @@ function App() {
         setFilterMovies(
           resp.data.records.filter((movie) => {
             // console.log("shoot me now");
-            return movie.fields?.streaming_on?.toLowerCase().includes(search);
+            return movie.fields?.streaming_on?.toLowerCase().includes(search.toLocaleLowerCase());
           })
         );
       }
