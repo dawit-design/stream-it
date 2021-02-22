@@ -1,8 +1,8 @@
 .nav-bar {
   background: linear-gradient(
     90deg,
-    rgba(110, 94, 254, .5) 0%,
-    rgba(73, 63, 252, .9) 100%
+    rgba(110, 94, 254, 0.5) 0%,
+    rgba(73, 63, 252, 0.9) 100%
   );
   height: 80px;
   justify-content: right;
@@ -16,7 +16,7 @@
   float: right;
 }
 
-.nav-links{
+.nav-links {
   text-decoration: none;
   color: #fff;
   padding: 0.5rem 1rem;
@@ -27,12 +27,23 @@
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
-@media (min-width: 320px) and (max-width: 767px){
-  .nav-bar{
+/* media query for mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+  .nav-bar {
     height: 40px;
     font-size: 0.9rem;
   }
   .nav-links {
     padding: 0.25rem 0.5rem;
+  }
+}
+/* media query for Ipad/tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-bar {
+    height: 60px;
+    font-size: 1.3rem;
+  }
+  .nav-links {
+    padding: 0.3rem 0.75rem;
   }
 }

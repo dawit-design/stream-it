@@ -62,6 +62,7 @@
 .video-link:hover{
   background: rgba(73, 63, 252, .4);
 }
+/* media query for mobile */
 @media (min-width: 320px) and (max-width: 767px){
   .movie-info{
     margin: 5px auto;
@@ -95,6 +96,43 @@
     height: 250px;
     margin: 3px auto;
     padding: 2px;
+    font-size: 14px;
+  }
+}
+/* media query for Ipad/tablet */
+@media (min-width: 768px) and (max-width: 1024px){
+  .movie-info{
+    margin: 8px auto;
+     border-radius: 16.5px;
+  }
+  .movie-cont h2 {
+    margin: 8px;
+    font-size: 30px;
+  }
+  .movie-info h5{
+    margin: 9px;
+    font-size: 25px;
+  }
+  .movie-info h2, h4{
+    margin: 8px;
+    font-size: 25px;
+  }
+  .info-button{
+    margin: 15px auto;
+    height: 33px;
+    border: 1px solid #8939f8;
+    border-radius: 10px;
+    background: #f2f5f5;
+    text-align: center;
+    padding: 5px;
+    font-size: 23px;
+    cursor: pointer;
+  }
+  .video-link{
+    width: 460px;
+    height: 285px;
+    margin: 4px auto;
+    padding: 3.5px;
     font-size: 14px;
   }
 }

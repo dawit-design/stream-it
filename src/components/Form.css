@@ -1,14 +1,13 @@
-.form{
+.form {
   margin: 10px;
   color: #37b9f1;
-  /* background-color: lightblue; */
   margin: 8px auto;
 }
 .form h2 {
   margin: 10px;
   font-size: 40px;
 }
-.form-container{
+.form-container {
   display: flex;
   flex-direction: column;
   color: #37b9f1;
@@ -18,45 +17,72 @@
   border: 1px solid #37b9f1;
   font-weight: 300px;
 }
-.input-field{
- width: 350px;
- border-radius: 10px;
- height: 30px;
- margin: 10px auto;
- font-family: 'Indie Flower', cursive;
- border: 1px solid #8939f8;
+.input-field {
+  width: 350px;
+  border-radius: 10px;
+  height: 30px;
+  margin: 10px auto;
+  font-family: inherit;
+  border: 1px solid #8939f8;
 }
-.button-class{
+.button-class {
   width: 135px;
   margin: 10px auto;
   border-radius: 25px;
   font-size: 25px;
   border: 1px solid #8939f8;
 }
-.button-class:hover{
+.button-class:hover {
   color: #37b9f1;
   background: #6d76f7;
-  opacity: .6; 
+  opacity: 0.6;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  .form{
+  .form {
     margin: 4px auto;
-   }
-   .form h2 {
-     margin: 4px;
-     font-size: 20px;
-   }
-   .form-container{
-     font-size: 20px;
-     padding: 4px;
-     font-weight: 120px;
-   }
-   .input-field{
+  }
+  .form h2 {
+    margin: 4px;
+    font-size: 20px;
+  }
+  .form-container {
+    font-size: 20px;
+    padding: 4px;
+    font-weight: 120px;
+  }
+  .input-field {
     width: 200px;
-   }
-   .button-class {
-     width: 100px;
-     margin: 4px auto;
-     font-size: 18px;
-   }
+    height: 20px;
+    margin: 6px auto;
+  }
+  .button-class {
+    width: 100px;
+    margin: 4px auto;
+    font-size: 18px;
+  }
+}
+/* media query for Ipad */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .form {
+    margin: 7px auto;
+  }
+  .form h2 {
+    margin: 7px;
+    font-size: 32px;
+  }
+  .form-container {
+    font-size: 31px;
+    padding: 7px;
+    font-weight: 200px;
+  }
+  .input-field {
+    width: 260px;
+    height: 25px;
+    margin: 8px auto;
+  }
+  .button-class {
+    width: 110px;
+    margin: 7px auto;
+    font-size: 24px;
+  }
 }

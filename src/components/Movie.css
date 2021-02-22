@@ -50,36 +50,61 @@ button:hover {
   font-weight: bold;
   color: #37b9f1;
 }
-
-@media (min-width: 320px) and (max-width: 767px){
+/* media query for mobile */
+@media (min-width: 320px) and (max-width: 767px) {
   .movie-list {
     margin: 8px;
     width: 105px;
     height: 200px;
-
   }
   .img-class {
-    height : 40px;
+    height: 40px;
     border-radius: 5px;
-
   }
-  button{
+  button {
     width: 50px;
     border-radius: 9px;
-    font-size: 11px;
-    /* margin: 2px; */
+    font-size: 10px;
   }
-  .h4-class{
+  .h4-class {
     margin: 1px auto;
-    font-size: 12px;
+    font-size: 10px;
   }
-  .h5-class{
-    font-size: 12px;
+  .h5-class {
+    font-size: 10px;
   }
-  .stream-it{
-    color: tomato;
+  .stream-it {
     margin: 5px auto;
     font-size: 18px;
+    font-weight: 165px;
+  }
+}
+/* media query for ipad/tabelt */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .movie-list {
+    margin: 12px;
+    width: 175px;
+    height: 330px;
+  }
+  .img-class {
+    height: 120px;
+    border-radius: 7px;
+  }
+  button {
+    width: 85px;
+    border-radius: 13px;
+    font-size: 10px;
+  }
+  .h4-class {
+    margin: 1.5px auto;
+    font-size: 18px;
+  }
+  .h5-class {
+    font-size: 18px;
+  }
+  .stream-it {
+    margin: 7px auto;
+    font-size: 30px;
     font-weight: 165px;
   }
 }
