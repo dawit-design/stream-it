@@ -4,6 +4,7 @@ html {
 .App {
   text-align: center;
   font-family: "Akaya Kanadaka", cursive;
+  /* font-family: 'Source Serif Pro', serif; */
   font-weight: normal;
   font-size: 30px;
   width: 100%;
@@ -66,7 +67,7 @@ html {
 .social-media {
   margin: 15px;
   padding: 15px;
-  color: #000;
+  font-size: 25px;
 }
 .social-media:hover {
   color: #37b9f1;

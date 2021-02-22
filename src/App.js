@@ -43,12 +43,6 @@ function App() {
         <Nav />
         <Route exact path="/">
           <h2 className="stream-it">stream-it!</h2>
-          {/* <input
-            className="search-class"
-            type="text"
-            placeholder="streaming-service"
-            onChange={(e) => setSearch(e.target.value)}
-          /> */}
           <select
             className="search-class"
             type="text"
