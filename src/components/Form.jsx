@@ -64,12 +64,12 @@ function Form(props) {
           onChange={(e) => setStreaming_On(e.target.value)}
         >
           <option value="choose">Choose Streaming Service</option>
-          <option value="netflix">NETFLIX</option>
-          <option value="disney plus">DISNEY PLUS</option>
-          <option value="apple tv">APPLE TV</option>
-          <option value="hbo-max">HBO-MAX</option>
-          <option value="hulu">HULU</option>
-          <option value="prime video">PRIME VIDEO</option>
+          <option value="netflix">Netflix</option>
+          <option value="disney plus">Disney Plus</option>
+          <option value="apple tv">Apple Tv</option>
+          <option value="hbo-max">Hbo-Max</option>
+          <option value="hulu">Hulu</option>
+          <option value="prime video">Prime Video</option>
         </select>
 
         <label htmlFor="text">Year:</label>
