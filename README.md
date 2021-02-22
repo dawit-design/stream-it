@@ -10,13 +10,13 @@ stream-it is an Airtable and react app to suggest favorite movies and shows on d
 
 ## Wireframes
 
-[mobile Wireframe](https://i.imgur.com/2geivQb.png)
+[mobile Wireframe](https://i.imgur.com/WERBlrU.png)
 
-[Desktop Wireframe](https://i.imgur.com/NKDec6R.png) 
+[Desktop Wireframe](https://i.imgur.com/PX7V9hN.png) 
 
 ## Component Hierarchy
 
-[Component Heirarchy](https://i.imgur.com/JJVkw2I.png)
+[Component Heirarchy](https://i.imgur.com/bugpFf4.png)
 
 ## API and Data Sample
 
@@ -75,9 +75,6 @@ data sample from Airtable API
 - work on CSS to style the page by focusing on flexbox or CSS grid
 
 #### PostMVP  
-- Add more animation and Carousel for local storage movies
-- Add secondary API to render data for different Books that's translated into movies.
-- Add buttons or list to render by their streaming service
 - Use local storage to save favorites
 
 ## Project Schedule
@@ -89,29 +86,25 @@ data sample from Airtable API
 |February 17| Finished components and clickable events | complete
 |February 18| Work on style and layout | complete
 |February 19| MVP  | complete
-|February 20| Post-MVPs | Incomplete
+|February 20| Post-MVPs | complete
 |February 23| Presentations | Incomplete
 
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Creating data base in Airtable| H | 1.5hrs| 2hrs |  |
-| Nav Component | H | 2hrs|  1hrs|  |
-| Home Component | H | 3hrs| 2hrs |  |
-| Movies Component | H | 3hrs|  2hrs|  |
-| Movie-Info Component | H | 3hrs| 2hrs |  |
-| Form Component | H | 3hrs|  2hrs|  |
-| Search function | H | 3hrs|  4hrs|  |
-| Figuring out linking and route Component | H | 3hrs| 2hrs |  |
-| Basic CSS for each component | H | 3hrs| 3hrs |  |
-| Meida Query for diferrent screen size | H | 3hrs|  |  |
-| Post MVP Book Component | H | 3hrs|  |  |
-| Post MVP local Storage | H | 3hrs|  |  |
-| Post MVP Component | H | 3hrs|  |  |
-| Post MVP styling  | H | 3hrs|  |  |
-| Post MVP animation and Carousel | H | 3hrs|  |  |
-| Total | H | 39.5hrs | 20hrs |  |
+| Creating data base in Airtable| H | 1.5hrs| 2hrs | 2hrs |
+| Nav Component | H | 2hrs|  1hr| 1hr |
+| Home Component | H | 3hrs| 2hrs | 2hrs |
+| Movies Component | H | 3hrs|  3hrs| 3hrs |
+| Movie-Info Component | H | 3hrs| 3hrs | 3hrs |
+| Form Component | H | 3hrs|  3hrs| 3hrs |
+| Search function | H | 3hrs|  4hrs| 4hrs |
+| Figuring out linking and route Component | H | 3hrs| 2hrs | 2hrs |
+| Basic CSS for each component | H | 3hrs| 3hrs | 3hrs |
+| Meida Query for diferrent screen size | H | 3hrs| 3hrs | 3hrs |
+| Post MVP styling  | H | 3hrs| 4hrs | 4hrs |
+| Total | H | 30hrs | 30hrs | 30hrs |
 
 ### Strengths:
 

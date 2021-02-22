@@ -8,12 +8,16 @@
   justify-content: right;
   align-items: center;
   font-size: 1.5rem;
+
 }
 
 .nav {
   display: flex;
   text-align: center;
   float: right;
+}
+.nav a {
+  perspective: 500px;
 }
 
 .nav-links {
@@ -27,6 +31,7 @@
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
+
 /* media query for mobile */
 @media (min-width: 320px) and (max-width: 767px) {
   .nav-bar {
