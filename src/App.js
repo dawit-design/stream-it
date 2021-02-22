@@ -43,12 +43,25 @@ function App() {
         <Nav />
         <Route exact path="/">
           <h2 className="stream-it">stream-it!</h2>
-          <input
+          {/* <input
             className="search-class"
             type="text"
             placeholder="streaming-service"
             onChange={(e) => setSearch(e.target.value)}
-          />
+          /> */}
+          <select
+            className="search-class"
+            type="text"
+            placeholder="streaming-service"
+            onChange={(e) => setSearch(e.target.value)}>
+          <option value="choose">Choose Streaming Service</option>
+          <option value="netflix">Netflix</option>
+          <option value="disney plus">Disney Plus</option>
+          <option value="apple tv">Apple Tv</option>
+          <option value="hbo-max">Hbo-Max</option>
+          <option value="hulu">Hulu</option>
+          <option value="prime video">Prime Video</option>
+          </select>
           <div className="movies-list">
             {filterMovies.map((movie) => (
               <Movie
